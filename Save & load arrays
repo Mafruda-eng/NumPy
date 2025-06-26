@@ -1,0 +1,14 @@
+# save & load arrays
+
+import numpy as np
+
+arr = np.array([2, 4, 6])
+np.save('array.npy', arr)
+loaded = np.load('array.npy')
+np.savetxt('array.txt', arr)
+loaded_txt = np.loadtxt('array.txt')
+
+print(np.save)
+print(loaded)
+print(np.savetxt)
+print(loaded_txt)
