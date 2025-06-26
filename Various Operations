@@ -1,0 +1,23 @@
+# Operations
+import pandas as np
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+print(a+b)
+print(a*b)
+
+# Statistical Operations
+
+arr = np.array([1, 2, 3, 4,  5, 6])
+print(np.mean(arr))
+print(np.sum(arr))
+print(np.median(arr))
+print(np.maz(arr))
+print(np.min(arr))
+
+#Matrix operation
+
+A = np.array([[1, 2], [3, 4]])
+B = np.array([[5, 6], [7, 8]])
+print(A @ B)   # multiplication
+print(np.linalg.inv(A)) # inverse
+print(np.linalg.det(B))  # determinant
