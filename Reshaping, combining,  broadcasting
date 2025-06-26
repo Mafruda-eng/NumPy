@@ -1,6 +1,6 @@
-import pandas as np
+import numpy as np
 arr = np.arange(9)
-reshaped = arr.reshaped(3, 3)
+reshaped = arr.reshape(3, 3)
 a = np.array([1, 2, 3])
 b = np.array([4, 5, 6])
 print(np.vstack((a, b)))
@@ -9,3 +9,4 @@ print(np.hstack((a, b)))
 A = np.array([1, 2, 3])
 B = 2
 print(A+B)
+
