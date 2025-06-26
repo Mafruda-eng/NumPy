@@ -1,0 +1,18 @@
+# Creating array
+
+import numpy as np
+arr1 = np.array([1, 2, 3, 4, 5])
+arr2 = np.array([[1, 2], [3, 4]])
+zeros = np.zeros((3, 3))
+ones = np.ones((2, 2))
+identity = np.eye(3)
+random = np.random.rand(3, 3)
+range_arr = np.arange(0, 10, 2)
+linspace = np.linspace(0, 1, 5)
+
+print('1.', zeros)
+print('2.', ones)
+print('3.', random)
+print('4.', range_arr)
+print('5.', linspace)
+print('6.', arr2)
